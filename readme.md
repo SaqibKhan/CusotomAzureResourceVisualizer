@@ -47,8 +47,12 @@ Build the website to serve it locally:
     
      Run the following command
      npm -i
-     
-     # run the following command to update you glup saas to the latest version
+   
+   **Problem:** Node Sass does not yet support your current environment: Windows 64-bit with Unsupported runtime (59)
+                For more information on which environments are supported 
+                please see:https://github.com/sass/node- sass/releases/tag/v3.13.1
+
+**Solution:** # run the following command to update you glup saas to the latest version
      npm install gulp-sass@3.2.1 --save-dev
 ## License
 
