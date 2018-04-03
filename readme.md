@@ -53,7 +53,7 @@ Build the website to serve it locally:
                 please see:https://github.com/sass/node- sass/releases/tag/v3.13.1
 
 **Solution:** # run the following command to update you glup saas to the latest version
-     npm install gulp-sass@3.2.1 --save-dev
-## License
 
+               npm install gulp-sass@3.2.1 --save-dev
+## License
 Available [here](https://github.com/ytechie/AzureResourceVisualizer/blob/master/LICENSE)
