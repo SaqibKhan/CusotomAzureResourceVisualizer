@@ -39,6 +39,7 @@ Build the website to serve it locally:
 **Problem:**  Cannot read property 'prototype' of undefined
 
 **Solution:** Install the latest version of karma  
+
     "karma": "latest",
     "karma-jasmine": "latest",
     "karma-ng-html2js-preprocessor": "latest",
@@ -46,7 +47,9 @@ Build the website to serve it locally:
     
      Run the following command
      npm -i
-
+     
+     # run the following command to update you glup saas to the latest version
+     npm install gulp-sass@3.2.1 --save-dev
 ## License
 
 Available [here](https://github.com/ytechie/AzureResourceVisualizer/blob/master/LICENSE)
