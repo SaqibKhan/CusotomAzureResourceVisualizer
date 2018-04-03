@@ -35,6 +35,18 @@ Build the website to serve it locally:
 
 **Solution:** Delete TypeScript from the `C:\Program Files (x86)\Microsoft SDKs\TypeScript`
 
+
+**Problem:**  Cannot read property 'prototype' of undefined
+
+**Solution:** Install the latest version of karma  
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "karma-ng-html2js-preprocessor": "latest",
+    "karma-phantomjs-launcher": "latest",
+    
+     Run the following command
+     npm -i
+
 ## License
 
 Available [here](https://github.com/ytechie/AzureResourceVisualizer/blob/master/LICENSE)
